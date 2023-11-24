@@ -106,13 +106,13 @@ XXXXXXX,MT(MOD_LGUI,KC_A),MT(MOD_LALT,KC_R),MT(MOD_LCTL,KC_S),MT(MOD_LSFT, KC_T)
 
     [7] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      XXXXXXX,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,                        KC_Y,     KC_U,   KC_I,     KC_O,    KC_P,  XXXXXXX,
+      XXXXXXX, KC_TAB,   KC_Q,    KC_W,    KC_E,    KC_R,                        KC_Y,     KC_U,   KC_I,     KC_O,    KC_P,  XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, KC_A,     KC_S,    KC_D,    KC_F,    KC_G,                        KC_H,     KC_J,   KC_J,     KC_K,    KC_L,  XXXXXXX,
+      XXXXXXX, KC_LSFT,  KC_A,     KC_S,    KC_D,    KC_F,                        KC_H,     KC_J,   KC_K,     KC_L,  KC_SEMICOLON,XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, KC_Z,     KC_X,    KC_C,    KC_V,    KC_B,                        KC_N,     KC_M,   KC_COMMA, KC_DOT, KC_SLASH, XXXXXXX,
+      XXXXXXX, KC_LSFT, KC_Z,     KC_X,    KC_C,    KC_V,                        KC_N,     KC_M,   KC_COMMA, KC_DOT, KC_SLASH, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_TAB, KC_SPACE, KC_LSFT,     XXXXXXX, DF(0), XXXXXXX
+                                          KC_TAB, KC_SPACE, KC_LSFT,     KC_ENT,  KC_BSPC,  DF(0)
                                       //`--------------------------'  `--------------------------'
   )
 };
